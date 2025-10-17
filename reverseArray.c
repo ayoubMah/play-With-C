@@ -5,6 +5,7 @@ void inplace_swap(int *x, int *y) {
    *x = *x ^ *y; /* Step 2 */
    *y = *x ^ *y; /* Step 3 */
 }
+// but this solution will not be good if the len of the arr is odd
 
 void reverse_array(int a[], int cnt) {
    int first, last;
