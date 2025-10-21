@@ -16,6 +16,15 @@ int main(void) {
 
     printf("the sum = %d \n" , sum);
 
+    printf("========================================================\n");
+
+    int a[15] = {[13] = 10 ,[8] = 10};
+
+    for (int i = 0; i < 15; i++) {
+        printf("a[%d] = %d\n", i, a[i]);
+
+    }
+
     return 0;
 }
 
