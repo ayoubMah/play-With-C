@@ -1,1 +1,20 @@
+# Ignore compiled executables and common build artifacts
+
+# default gcc/clang single-file output
 a.out
+
+# general executable outputs
+*.out
+*.exe
+*.elf
+
+# object files and common build dirs
+*.o
+*.obj
+/build/
+/bin/
+/obj/
+
+# core dumps
+core
+core.*
