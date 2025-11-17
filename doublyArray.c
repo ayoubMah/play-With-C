@@ -10,6 +10,7 @@ void doubleArray(int *arr, int size){
     *(arr + i) = *(arr + i) * 2;
   }
 }
+
 int main()
 {
   int numbers[] = {1, 2, 3, 4, 5};
