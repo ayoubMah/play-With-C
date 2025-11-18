@@ -17,13 +17,22 @@ int main(void) {
     printf("the sum = %d \n" , sum);
 
     printf("========================================================\n");
+  
+  printf("let's verse this array");
+  for (int i = N ; i >= 0; i--) {
+    printf("arr[%d] = %d\n", i, arr[i]);
+  }
 
-    int a[15] = {[13] = 10 ,[8] = 10};
+    printf("========================================================\n");
 
-    for (int i = 0; i < 15; i++) {
+  printf("this will force our array has 13 elm\n");
+    int a[] = {[13] = 10 ,[8] = 10};
+
+    for (int i = 0; i < 14; i++) {
         printf("a[%d] = %d\n", i, a[i]);
 
     }
+
 
     return 0;
 }

@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include <stdio.h>
 
 int[] intToArray(int number){
   int[] arr;
